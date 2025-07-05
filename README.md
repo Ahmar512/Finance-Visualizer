@@ -1,12 +1,48 @@
-# React + Vite
+# 📊 Finance Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Finance Visualizer** is a simple and intuitive web application that helps users track their monthly expenses and compare them against a set budget. It provides a clear visualization of spending patterns to support better financial decisions.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [https://finance-visualizer-wine.vercel.app/](https://finance-visualizer-wine.vercel.app/)  
+📂 **GitHub Repository**: [Finance Visualizer](https://github.com/Ahmar512/Finance-Visualizer)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Track expenses on a month-wise basis  
+- ✅ Compare your monthly budget with actual expenses  
+- ✅ Clean, responsive UI for a smooth experience  
+- ✅ Data visualization for better insight
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js  
+- Tailwind CSS  
+- Recharts  
+- Vite
+
+## 🧑‍💻 How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ahmar512/Finance-Visualizer.git
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd Finance-Visualizer
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+
+## 📸 Screenshots
+
+
+
+
