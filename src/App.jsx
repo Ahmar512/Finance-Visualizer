@@ -3,7 +3,7 @@ import NavButton from './components/NavButton'
 import { useVisualizerStore } from './store/visualizer.store'
 import { PlusCircle, Edit3, Trash2, DollarSign, TrendingUp, Target, Calendar } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
-import Dashboard from './components/DashBoard';
+import Dashboard from './components/Dashboard';
 import Transactions from './components/Transactions';
 import AddTransaction from './components/AddTransaction';
 import Budgets from './components/Budgets';
@@ -11,7 +11,7 @@ import { Toaster } from 'react-hot-toast';
 
 
 function App() {
-  const {currentView, transactions} = useVisualizerStore();
+  const { currentView, transactions } = useVisualizerStore();
 
 
   const getCurrentMonthExpenses = () => {
@@ -27,7 +27,7 @@ function App() {
   const totalExpenses = transactions.reduce((sum, t) => sum + t.amount, 0);
   const currentMonthExpenses = getCurrentMonthExpenses();
   const currentMonthTotal = currentMonthExpenses.reduce((sum, t) => sum + t.amount, 0);
-  
+
 
   return (
     <div className="min-h-screen bg-gray-50 p-4">
@@ -47,11 +47,11 @@ function App() {
         {currentView === 'budgets' && (<Budgets />)}
       </div>
 
-      <Toaster 
+      <Toaster
         position="top-center"
         reverseOrder={false}
       />
-    </div>  
+    </div>
   )
 }
 
