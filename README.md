@@ -42,6 +42,20 @@
    npm run dev
 
 ## 📸 Screenshots
+1.Dashboard
+
+![Dashboard1](https://github.com/Ahmar512/Finance-Visualizer/blob/main/src/ScreenShots/Screenshot%202025-07-05%20134724.png?raw=true)
+![Dashboard2](https://github.com/Ahmar512/Finance-Visualizer/blob/main/src/ScreenShots/Screenshot%202025-07-05%20134733.png?raw=true)
+
+2.Transactions
+![Transaction](https://github.com/Ahmar512/Finance-Visualizer/blob/main/src/ScreenShots/Screenshot%202025-07-05%20134740.png?raw=true)
+
+3.Add Transaction
+![AddTransaction](https://github.com/Ahmar512/Finance-Visualizer/blob/main/src/ScreenShots/Screenshot%202025-07-05%20134746.png?raw=true)
+
+4.Budgets
+![Budgets](https://github.com/Ahmar512/Finance-Visualizer/blob/main/src/ScreenShots/Screenshot%202025-07-05%20134752.png?raw=true)
+
 
 
 
