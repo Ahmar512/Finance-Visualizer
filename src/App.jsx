@@ -8,6 +8,7 @@ import Transactions from './components/Transactions';
 import AddTransaction from './components/AddTransaction';
 import Budgets from './components/Budgets';
 import { Toaster } from 'react-hot-toast';
+import Chatbot from './components/Chatbot/Chatbot';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         {currentView === 'add transaction' && (<AddTransaction />)}
         {currentView === 'budgets' && (<Budgets />)}
       </div>
+      <Chatbot />
 
       <Toaster
         position="top-center"
