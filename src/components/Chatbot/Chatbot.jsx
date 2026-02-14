@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
-import Rhinontech from '@rhinon/botsdk-test';
+import Rhinontech from '@rhinon/botsdk';
 
 export default function Chatbot() {
     useEffect(() => {
         Rhinontech({
-            app_id: 'EY69F8'
+            app_id: 'BT54ZG'
         });
     }, []);
 

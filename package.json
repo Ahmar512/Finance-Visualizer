@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rhinon/botsdk-test": "^0.0.12",
+    "@rhinon/botsdk": "^0.6.17",
     "@tailwindcss/vite": "^4.1.11",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
