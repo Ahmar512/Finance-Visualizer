@@ -8,12 +8,17 @@ import Transactions from './components/Transactions';
 import AddTransaction from './components/AddTransaction';
 import Budgets from './components/Budgets';
 import { Toaster } from 'react-hot-toast';
-import Chatbot from './components/Chatbot/Chatbot';
+import { useEffect } from "react";
+import RhinonChat from "@rhinon/chat";
+
 
 
 
 function App() {
   const { currentView, transactions } = useVisualizerStore();
+  useEffect(() => {
+    RhinonChat({ app_id: "RRJGNA", api_url: "https://api.rhinontech.in/widget" });
+  }, []);
 
 
   const getCurrentMonthExpenses = () => {
@@ -48,7 +53,6 @@ function App() {
         {currentView === 'add transaction' && (<AddTransaction />)}
         {currentView === 'budgets' && (<Budgets />)}
       </div>
-      <Chatbot />
 
       <Toaster
         position="top-center"
